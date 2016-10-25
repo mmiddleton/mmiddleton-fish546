@@ -4,8 +4,11 @@ The project I will be working on will examine the methylome of sperm taken from 
 
 ##Goals/Objectives
 My original goal was to obtain data from steelhead raised in the natural environment, as well as those raised in the hatchery environment, and compare methylation between the two rearing environments. However, since I have no data of my own and have never done this type of analysis before that might be a large task to start out with. Therefore, my current goals/objectives are:
+
 1. Learn more about the types of analyses used in bioinformatics and gain a semi-firm grasp of how to do them.
+
 2. Learn more about how to use Jupyter Notebook to communicate how these analyses were performed so that they are reproducible by myself or others.
+
 3. Take MiSeq data from an RRBS-treated sperm sample through the steps necessary (`FastQC`, `Trim_Galore`, `BLAST`, etc.) to examine the methylome of that sample.
 
 ##Repository Structure
@@ -19,9 +22,9 @@ My original goal was to obtain data from steelhead raised in the natural environ
 `images/`
 - contains screenshots of directory structure and GitHub punchcard for Week 3 quiz questions (not synced to my repository)
 
-`jupyter-notebooks/`
+`notebooks/`
 - contains `.ipynb` checkpoints
-- contains all jupyter notebooks showing how analyses were performed (currently this is only the quick check I did on the `fastq` file, but a notebook on the `FASTQC` analysis is in progress since I performed it in interactive mode)
+- contains documentation showing how analyses were performed (currently this is only the quick check I did on the `fastq` file, but a notebook on the `FASTQC` analysis is in progress since I performed it in interactive mode)
 
 `scripts/`
 - does not contain anything as of 2016-10-21, but will update any scripts used in analysis as they occur
