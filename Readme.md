@@ -23,7 +23,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - contains screenshots of directory structure and GitHub punchcard for Week 3 quiz questions (not synced to my repository)
 
 `notebooks/`
-- contains `.ipynb` checkpoints
+- contains `.ipynb` checkpoints (not synced to my repository)
 - contains documentation showing how analyses were performed (currently this is only the quick check I did on the `fastq` file, but a notebook on the `FASTQC` analysis is in progress since I performed it in interactive mode)
 
 `scripts/`
