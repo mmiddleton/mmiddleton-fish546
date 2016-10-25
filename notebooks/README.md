@@ -1,0 +1,3 @@
+#Notebook structure for FISH 546 Project
+
+Due to the fact that I will mostly be working on Mac OS when this type of work is performed in the future, I have chosen to perform the analyses for this project on a Mac Desktop (OS Version 10.11.6) rather than the Windows (OS Version 8.1) I use in class. Therefore, going forward, rather than using a Jupyter Notebook to record analyses I perform (since I do not currently have this capability on the Mac Desktop) I will be recording what I do with Markdown files, embedding code used within them, and uploading these to GitHub. See README.md in analyses for versions of software used and how they were downloaded to the Mac Desktop.
