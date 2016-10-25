@@ -18,5 +18,5 @@ The sperm sample was collected at the Wells Dam Hatchery on 2014-04-29 from a re
 
 
 
-Although the original data included paired end reads, I will only be working with single end reads (R1) due to the fact that Mackenzie found the R2 reads to be low quality. Each fragment is 100-300bp, therefore, since each read is 100bp long I should have very little adapter contamination.
+Although the original data included paired end reads, I will only be working with single end reads (R1) due to the fact that Mackenzie found the R2 reads to be low quality. Each fragment is 100-300bp, therefore, since each read is 150bp long I should have very little adapter contamination.
 
