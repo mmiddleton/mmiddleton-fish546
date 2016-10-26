@@ -1,0 +1,8 @@
+Command line parameters for 89_S1_L001_R1_001.fastq (fastqc results appended with trimmed_fastqc_1):
+
+
+trim_galore --rrbs --fastqc -q 10
+
+ 89_S1_L001_R1_001.fastq
+
+--Try running again with -q 20 to see if that changes anything
