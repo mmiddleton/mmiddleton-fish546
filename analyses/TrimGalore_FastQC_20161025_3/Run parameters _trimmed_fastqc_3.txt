@@ -1,0 +1,10 @@
+Command line parameters for 89_S1_L001_R1_001.fastq (fastqc results appended with trimmed_fastqc_3:
+
+
+trim_galore -q 20 --rrbs --fastqc
+ 89_S1_L001_R1_001.fastq
+
+--This looks exactly the same as the last one, so clearly non_directional does not matter for this data. But, the runs
+with -q 20 look better than the run with -q 10 (makes sense because the -q 20 is a more stringent discriminator of quality
+than -q 10). As a final check that I'm understanding what I'm doing ask Mac if I'm running similar commands as she did 
+when she was dealing with the data.
