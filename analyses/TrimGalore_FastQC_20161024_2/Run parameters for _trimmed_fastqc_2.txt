@@ -1,4 +1,4 @@
-Command line parameters 89_S1_L001_R1_001.fastq (fastqc results appended with trimmed_fastqc_2):
+Command line parameters 89_S1_L001_R1_001.fastq (fastqc results ending in trimmed_fastqc_2):
 
 
 trim_galore -q 20 --rrbs --non_directional --fastqc 89_S1_L001_R1_001.fastq
