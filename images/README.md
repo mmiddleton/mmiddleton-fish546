@@ -1,0 +1,3 @@
+#Images associated with FISH 546 Project
+
+Because the `.html` files from my `FASTQC` analyses did not load into GitHub the way that I wanted them to, I felt that it would be nice to have the images from the `FASTQC` outputs easily accessible. The zipped files of each output (which contain a copy of these images and the `.html` file) are accessible in the `analyses/` directory as well if viewing the `.html` file is preferred.
