@@ -13,14 +13,14 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 ##Repository Structure
 `analyses/`
-- contains all output files from analyses performed on my data, each analysis is in a separate folder (named for the type of analysis performed). The TrimGalore files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
+- contains all output files from analyses performed on my data, each analysis is in a separate folder (named for the type of analysis performed). The `Trim_Galore` files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
 
 `data/`
 - `fastq` data file (not synced to my repository due to size)
 - `README.md` describing the sample, sample preparation, and how the data was obtained
 
 `images/`
-- contains screenshots of directory structure and GitHub punchcard for Week 3 quiz questions (not synced to my repository)
+- contains images from unzipped versions of the `FASTQC` output files, see README.md in this directory
 
 `notebooks/`
 - contains `.ipynb` checkpoints (not synced to my repository)
