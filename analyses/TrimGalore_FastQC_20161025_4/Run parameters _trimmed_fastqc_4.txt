@@ -1,0 +1,9 @@
+Command line parameters for 89_S1_L001_R1_001.fastq (fastqc results appended with trimmed_fastqc_4):
+
+
+trim_galore --rrbs --fastqc 89_S1_L001_R1_001.fastq
+
+--Talked to Mac and that was all that she ran when she used TrimGalore for this data.
+Looks exactly the same as the last run that I did which makes sense because the default quality (-q) is 20 unless
+you add the -q command and specify something different, so I have basically been specifying that the program do what it 
+would have done anyway... Oh well.
