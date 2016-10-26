@@ -1,0 +1,6 @@
+Command line parameters for 89_S1_L001_R1_001.fastq (results appended with fastqc_pretrim_20161020):
+
+fastqc 89_S1_L001_R1_001.fastq
+
+--Looks like there is a small (but still present) amount of adapter contamination. Figure out which program is best to
+get rid of that, download, and start running.
