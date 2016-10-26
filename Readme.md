@@ -13,7 +13,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 ##Repository Structure
 `analyses/`
-- contains all output files from analyses performed on my data (currently this is only a `FASTQC` report, the results of this report will be included in a jupyter notebook synced at a future date)
+- contains all output files from analyses performed on my data, each analysis is in a separate folder (named for the type of analysis performed). The TrimGalore files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
 
 `data/`
 - `fastq` data file (not synced to my repository due to size)
