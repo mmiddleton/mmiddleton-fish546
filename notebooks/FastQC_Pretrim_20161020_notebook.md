@@ -1,0 +1,20 @@
+#Notebook for FastQC_Pretrim_20161020
+
+For information on how the software to perform this analysis was downloaded see `Software_documentation_on_Mac` in `analyses/`.
+
+Opened terminal
+
+Typed: `fastqc 89_S1_L001_R1_001.fastq` [run parameters are also included in a `.txt` file included in the `FastQC_pretrim_20161020/` folder found in `analyses/` ]
+
+Run completed without error message
+
+Renamed zipped output file: `89_S1_L001_R1_001_fastqc_pretrim_20161020`
+
+Unzipped the file by double-clicking
+
+Opened `fastqc_report.html`
+
+In the "Overrepresented sequences" section, the report shows some adapter contamination as the top overrepresented sequence (0.8370280870623236%). Additionally, the "Adapter content" graph shows stronger adapter contamination further along in the reads. [This information can be viewed by unzipping the `89_S1_L001_R1_001_fastqc_pretrim_20161020` folder found in `analyses/FastQC_pretrim_20161020/`. Alternatively, there are images from the `.html` file available in `images/FastQC_pretrim_20161020/`.]
+
+Next step: Talk to Mac about what software to use to trim off the adapters, download it, and run.
+
