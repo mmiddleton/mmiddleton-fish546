@@ -3,6 +3,6 @@ Command line parameters 89_S1_L001_R1_001.fastq (fastqc results ending in trimme
 
 trim_galore -q 20 --rrbs --non_directional --fastqc 89_S1_L001_R1_001.fastq
 
---In addition to -q to 20 rather than 10, tried running with non_directional since I wasn't quite sure whether or not 
-that applied to this data. Because I changed two parameters at once, decided to do another run without 
+--In addition to changing -q to 20 rather than 10, tried running with non_directional since I wasn't quite sure whether or 
+not that applied to this data. Because I changed two parameters at once, decided to do another run without 
 non_directional to compare all three.
