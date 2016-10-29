@@ -31,7 +31,7 @@ With help (a lot) from Giles Goetz we loaded this script onto my computer so tha
     `try:`
         `opts, args = getopt.getopt(argv, "hi:o:w:", ["input=", "output=", "wanted"])`
     `except getopt.GetoptError:`
-        `print 'fasta_filter.py -i <input> -o <output> -w <wanted>'
+        `print 'fasta_filter.py -i <input> -o <output> -w <wanted>'`
         `sys.exit(2)`
     `for opt, arg in opts:`
         `if opt == '-h':`
