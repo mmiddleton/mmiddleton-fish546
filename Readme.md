@@ -24,10 +24,15 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 `notebooks/`
 - contains `.ipynb` checkpoints (not synced to my repository)
-- contains documentation showing how analyses were performed (currently this is only the quick check I did on the `fastq` file, but a notebook on the `FASTQC` analysis is in progress since I performed it in interactive mode)
+- contains documentation showing how analyses were performed
+
+`R_seastar/`
+- contains files used to complete the quiz question for Week 4
+- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the quiz question for Week 4
+- contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
 
 `scripts/`
-- does not contain anything as of 2016-10-21, but will update any scripts used in analysis as they occur
+- contains information about a script called `fasta_filter.py` that I can use to merge fasta files with `.txt` or `.tab` files (currently the spacing in the script itself is incorrect, trying to figure out how to fix that so it looks the way it should...)
 
 `README.md`
 - this `README.md` describing my project
@@ -52,4 +57,5 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - Investigate which software would be best to use to map my trimmed sequences back to the genome (`BSMaps`?)
 
 **Week 5:**
-- Provided that Week 4 is successful, map my trimmed sequences back to the genome
+- Download either `BSMap` or `Bismark` to start mapping my sequences
+- Gain a basic understanding of whichever software I choose and run an analysis
