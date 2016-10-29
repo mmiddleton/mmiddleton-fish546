@@ -3,7 +3,7 @@
 - Files needed:
 	- `Phel_DEGlist.tab`
 	- `Phel_transcriptome.fasta`
-	- `Omykiss_codinggenes.fa (not in repo, instruction on how to get are below)
+	- `Omykiss_codinggenes.fa` (not in repo, instruction on how to get are below)
 	- `all.swiss.out.tab` (This is an annotated genome our lab has compiled, not available on GitHub due to size)
 
 - Files made:
@@ -23,11 +23,8 @@
 
 - Activate virtualenv (see `Software_documentation_on_Mac` file in `analyses/` for an explanation why):
 	`venv`
-- Run fasta_filter.py script to join the two (see `fasta_filter.py_script` in `scripts/`)
-	`fasta_filter.py \
-    -i Phel_transcriptome.fasta \
-    -w Phel_DEGlist.ids.txt \
-    -o Phel_DEGlist.seq.fasta`
+- Run fasta_filter.py script to join the two (see `fasta_filter.py_script` in `scripts/`):
+	`fasta_filter.py -i Phel_transcriptome.fasta -w Phel_DEGlist.ids.txt -o Phel_DEGlist.seq.fasta`
 
 - Check to make sure that the output looks like a fasta file:
 	`head -n 10 Phel_DEGlist.seq.fasta`
@@ -41,17 +38,10 @@
 - From the http://www.genoscope.cns.fr/trout/data/ website, download the `Omykiss_codinggenes.fa.gz` file and unzip by double-clicking
 
 - Need to make a `BLAST` database in order to blast the `Phel_DEGlist.seq.fasta` file against the trout:
-	`makeblastdb \
-    -in Omykiss_codinggenes.fa \
-    -dbtype nucl \
-    -out Omykiss_codinggenes`
+	`makeblastdb -in Omykiss_codinggenes.fa -dbtype nucl -out Omykiss_codinggenes`
 
 - Run `BLAST`:
-	`blastn -query R_seastar/Phel_DEGlist.seq.fasta \
-    -db Documents/Trout_genome/Omykiss_codinggenes \
-    -outfmt 6 \
-    -max_target_seqs 1 \
-    -out Desktop/blastn_seastar.txt`
+	`blastn -query R_seastar/Phel_DEGlist.seq.fasta -db Documents/Trout_genome/Omykiss_codinggenes -outfmt 6 -max_target_seqs 1 -out Desktop/blastn_seastar.txt`
 
 - Sort this file based on the e-value so that the best hits are at the top:
 	`sort -k 11 blastn_seastar.txt`
