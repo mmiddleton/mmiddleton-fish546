@@ -1,4 +1,4 @@
-#Fish 546 Repository
+#O. mykiss sperm methylome
 
 The project I will be working on will examine the methylome of sperm taken from a single, hatchery-raised, returning adult steelhead (*Oncorhynchus mykiss*).
 
@@ -9,7 +9,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 2. Learn more about how to use Jupyter Notebook to communicate how these analyses were performed so that they are reproducible by myself or others.
 
-3. Take MiSeq data from an RRBS-treated sperm sample through the steps necessary (`FastQC`, `Trim_Galore`, `BLAST`, etc.) to examine the methylome of that sample.
+3. Take MiSeq data from an RRBS-treated sperm sample through the steps necessary (`FastQC`, `Trim_Galore`, `Bismark`, etc.) to examine the methylome of that sample.
 
 ##Repository Structure
 `analyses/`
