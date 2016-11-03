@@ -25,13 +25,14 @@ With help (a lot) from Giles Goetz we loaded this script onto my computer so tha
 `from Bio import SeqIO`
 
 `def main(argv):`
-	`fasta_file = ''`
-    `wanted_file = ''`
-    `result_file = ''`
-    `try:`
-        `opts, args = getopt.getopt(argv, "hi:o:w:", ["input=", "output=", "wanted"])`
-    `except getopt.GetoptError:`
-        `print 'fasta_filter.py -i <input> -o <output> -w <wanted>'`
+
+     `fasta_file = ''`
+     `wanted_file = ''`
+     `result_file = ''`
+     `try:`
+         `opts, args = getopt.getopt(argv, "hi:o:w:", ["input=", "output=", "wanted"])`
+     `except getopt.GetoptError:`
+         `print 'fasta_filter.py -i <input> -o <output> -w <wanted>'`
         `sys.exit(2)`
     `for opt, arg in opts:`
         `if opt == '-h':`
@@ -42,6 +43,7 @@ With help (a lot) from Giles Goetz we loaded this script onto my computer so tha
         `elif opt in ("-o", "--output"):`
 
  `print "Input fasta file is ", fasta_file`
+    
     `print "Output fasta file is ", result_file`
     `print "Wanted file is ", wanted_file`
 
