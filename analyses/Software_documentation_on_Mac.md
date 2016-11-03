@@ -79,7 +79,7 @@ https://virtualenv.pypa.io/en/stable/installation/
             
            `cd virtualenv-15.0.3`
             
-           	python ./virtualenv.py/Users/mollie.middleton/Applications/virtualenv-15.0.3`
+           `python ./virtualenv.py/Users/mollie.middleton/Applications/virtualenv-15.0.3`
       
       [this is based on code found in the "To use locally from source" section of the https://virtualenv.pypa.io/en/stable/installation/ website]
 	- `/Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/pip install virtualenv-15.0.3.tar.gz` [installs virtualenv in specified directory]
