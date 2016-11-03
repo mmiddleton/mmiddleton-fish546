@@ -4,11 +4,11 @@
 
 - With mouse clicks:
 	- went to website: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
-	- clicked on: ncbi-blast-2.5.0+-x64-macosx.tar.gz
+	- clicked on "ncbi-blast-2.5.0+-x64-macosx.tar.gz"
 	- unzipped the file (double-click)
 	- opened the bash terminal
 - From the command line:
-	- typed `blastp`, got an error saying command does not exist
+	- typed: `blastp`, got an error saying command does not exist
 	- typed: `touch ~/.bash_profile; open ~/.bash_profile`
 	- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/ncbi-blast-2.5.0+/bin`
 	- saved `.bash_profile` and quit text editor
@@ -34,7 +34,10 @@
 
 - Downloading the necessary `Java`:
 	- followed the installation instructions found here: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/INSTALL.txt
-	- now, when I type `java -version` at the command line it returns: `java version "1.8.0_112"	Java(TM) SE Runtime Environment (build 1.8.0_112-b16)	Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)`
+	- now, when I type `java -version` at the command line it returns: 
+	      java version "1.8.0_112"	
+          Java(TM) SE Runtime Environment (build 1.8.0_112-b16)	
+          Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)
 
 - Type in `fastqc --version` at the command line now returns: `FASTQC v0.11.5`
 
@@ -43,7 +46,7 @@
 - With mouse clicks:
 	- went to website: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
 	- clicked on "download now" button
-	- clicked on "•trim_galore_v0.4.2.zip"
+	- clicked on "trim_galore_v0.4.2.zip"
 	- moved the downloaded zipped file from `Downloads/` to `Applications/`
 	- unzipped the file (double-click)
 -  From the command line:
@@ -64,11 +67,11 @@ https://virtualenv.pypa.io/en/stable/installation/
 		- went to this website: https://pypi.python.org/pypi/virtualenv/15.0.3
 		- clicked on the "downloads" button
 		- clicked on the "virtualenv-15.0.3.tar.gz (md5, pgp)" link
-    - Back at the command line: typed
-      `mv ~/Downloads/virtualenv-15.0.3.tar.gz .`
-      `tar zxvf virtualenv-15.0.3.tar.gz `
-      `cd virtualenv-15.0.3` 
-      `python ./virtualenv.py /Users/mollie.middleton/Applications/virtualenv-15.0.3`
+    - Back at the command line typed:
+           mv ~/Downloads/virtualenv-15.0.3.tar.gz .
+           tar zxvf virtualenv-15.0.3.tar.gz 
+           cd virtualenv-15.0.3
+           python ./virtualenv.py /Users/mollie.middleton/Applications/virtualenv-15.0.3
       [this is based on code found in the "To use locally from source" section of the https://virtualenv.pypa.io/en/stable/installation/ website]
 	- `/Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/pip install virtualenv-15.0.3.tar.gz` [installs virtualenv in specified directory]
 	- `source /Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/activate` [activates virtualenv, but this didn't work because I need to install xcode, so...]
