@@ -38,9 +38,10 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
 	- followed the installation instructions found here: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/INSTALL.txt
 	- now, when I type `java -version` at the command line it returns: 
 	      
-          `java version "1.8.0_112"	
-          Java(TM) SE Runtime Environment (build 1.8.0_112-b16)	
-          Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)`
+          `java version "1.8.0_112"`	
+          
+          `Java(TM) SE Runtime Environment (build 1.8.0_112-b16)`	
+          `Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)`
 
 - Type in `fastqc --version` at the command line now returns: `FASTQC v0.11.5`
 
@@ -72,10 +73,13 @@ https://virtualenv.pypa.io/en/stable/installation/
 		- clicked on the "virtualenv-15.0.3.tar.gz (md5, pgp)" link
     - Back at the command line typed:
            
-           `mv ~/Downloads/virtualenv-15.0.3.tar.gz .
-            tar zxvf virtualenv-15.0.3.tar.gz 
-            cd virtualenv-15.0.3
-            python ./virtualenv.py/Users/mollie.middleton/Applications/virtualenv-15.0.3`
+           `mv ~/Downloads/virtualenv-15.0.3.tar.gz .`
+            
+           `tar zxvf virtualenv-15.0.3.tar.gz`
+            
+           `cd virtualenv-15.0.3`
+            
+           	python ./virtualenv.py/Users/mollie.middleton/Applications/virtualenv-15.0.3`
       
       [this is based on code found in the "To use locally from source" section of the https://virtualenv.pypa.io/en/stable/installation/ website]
 	- `/Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/pip install virtualenv-15.0.3.tar.gz` [installs virtualenv in specified directory]
