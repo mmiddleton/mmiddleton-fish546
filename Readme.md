@@ -13,7 +13,8 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 ##Repository Structure
 `analyses/`
-- contains all output files from analyses performed on my data, each analysis is in a separate folder (named for the type of analysis performed). The `Trim_Galore` files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
+- contains all output files from analyses performed on my data. Each analysis is in a separate folder named for the type of analysis performed and date it was performed on. If multiple analyses of the same type were performed each one is numbered for the order it was performed in (1, 2, 3, etc.). The `Trim_Galore` files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
+- contains a file called 'Software_documentation_on_Mac` which documents the operating system these analyses were performed on, versions of software used, and how that software was downloaded
 
 `data/`
 - `fastq` data file (not synced to my repository due to size)
@@ -32,7 +33,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
 
 `scripts/`
-- contains information about a script called `fasta_filter.py` that I can use to merge fasta files with `.txt` or `.tab` files (currently the spacing in the script itself is incorrect, trying to figure out how to fix that so it looks the way it should...)
+- contains information about a script called `fasta_filter.py` that I can use to merge `fasta` files with `.txt` or `.tab` files (used for Week 4 quiz question)
 
 `README.md`
 - this `README.md` describing my project
