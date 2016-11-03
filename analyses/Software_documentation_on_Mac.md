@@ -1,4 +1,6 @@
-#Downloading software to Mac Desktop
+#Downloading software to Mac
+
+All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are descriptions of how software was downloaded for these analyses and what versions of the software were used.
 
 ##`BLAST`
 
