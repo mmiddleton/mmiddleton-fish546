@@ -20,6 +20,8 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
 
 ##`FASTQC`
 
+`FASTQC` requires a `Java` in order to run, so the instructions to download that are included below as well
+
 - With mouse clicks: 
 	- went to website: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
     - clicked on "download now" button
@@ -28,8 +30,7 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
     - unzipped the file (double-click)
 - From the command line:
 	- typed: `open ~/.bash_profile`
-	- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/FastQC
-`
+	- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/FastQC`
 	- saved `.bash_profile` and quit text editor
 	- back at the command line typed: `source ~/.bash_profile` [to force the profile to execute without having to close the terminal]
 	- typed `fastqc --version` which returned `command not found` error [not surprising since I need `Java` in order to run `FASTQC`]
@@ -39,7 +40,6 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
 	- now, when I type `java -version` at the command line it returns: 
 	      
           `java version "1.8.0_112"`	
-          
           `Java(TM) SE Runtime Environment (build 1.8.0_112-b16)`	
           `Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)`
 
@@ -47,13 +47,15 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
 
 ##`Trim_Galore`
 
+`Trim_Galore` requires `cutadapt` in order to run, so the instructions to download that are included below as well
+
 - With mouse clicks:
 	- went to website: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
 	- clicked on "download now" button
 	- clicked on "trim_galore_v0.4.2.zip"
 	- moved the downloaded zipped file from `Downloads/` to `Applications/`
 	- unzipped the file (double-click)
--  From the command line:
+- From the command line:
 	- typed: `open ~/.bash_profile`
 	- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/trim_galore_v0`
 	- saved `.bash_profile` and quit text editor
@@ -61,7 +63,7 @@ All analyses were performed on a Mac Desktop computer (OS 10.11.6). Below are de
 	- typed `trim_galore --version` which returned `command not found` error [not surprising since I need `cutadapt` in order to run `trim_galore`]
 
 - Downloading `cutadapt`
-	- I tried to install this once on my own by doing a google search for "cutadapt" but was unable to find a version that I could figure out a way to download... So, talked to Giles who helped me install `virtualenv` which will run cutadapt
+	- I tried to install this once on my own by doing a google search for "cutadapt" but was unable to find a version that I could figure out a way to download... So, talked to Giles who helped me install `virtualenv` which will run `cutadapt`
 
 - Downloading `virtualenv`
 	- Went to this website: 
@@ -98,26 +100,55 @@ source /Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/activate`
 - Version of `cutadapt`: 1.11
 - Version of `virtualenv`: 15.0.3
 
+##`Bismark`
 
+`Bismark` requires `Bowtie2` (`Bowtie` would work as well, but Mac recommended `Bowtie2` instead based on her experiences) and `SAMtools` in order to run, so instructions to download them are included below as well
 
+- Downloading `Bismark`
+	- went to this website: http://www.bioinformatics.babraham.ac.uk/projects/bismark/
+	- clicked on "download now" button
+	- clicked on "bismark v0.16.3.tar.gz"
+	- moved the downloaded zipped file from `Downloads/` to `Applications/`
+	- unzipped the file (double-click)
+	- From the command line:
+		- typed: `open ~/.bash_profile`
+		- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/bismark_v0.16.3`
+		- saved `.bash_profile` and quit text editor
+		- back at the command line typed: `source ~/.bash_profile` [to force the profile to execute without having to close the terminal]
 
+- Downloading `Bowtie2`
+	- went to this website: http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml
+	- clicked on "Bowtie2 2.2.9" on the right-hand side of the page
+	- clicked on "bowtie2-2.2.9-macos-x86_64.zip"
+	- moved the downloaded zipped file from `Downloads/` to `Applications/`
+	- unzipped the file (double-click)
+	- From the command line:
+		- typed: `open ~/.bash_profile`
+		- to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/bowtie2-2.2.9`
+		- saved `.bash_profile` and quit text editor
+		- back at the command line typed: `source ~/.bash_profile` [to force the profile to execute without having to close the terminal]
 
+- Downloading `SAMtools`
+	- went to this website: http://www.htslib.org/download/
+	- clicked on "samtools-1.3.1"
+	- From the command line:
+		- changed directories to Applications: `cd /Users/mollie.middleton/Applications`
+		- moved the download from `Downloads/` to `Applications/`: `mv ~/Downloads/samtools-1.3.1.tar.bz2 .`
+		- unzipped the file: `tar jxvf samtools-1.3.1.tar.bz2`
+		- rename the folder to compile it so that when it is installed it can go back in the `samtools-1.3.1/` folder: `mv samtools-1.3.1 samtools-1.3.1_compile`
+		- compile and install `SAMtools`:
+		
+        	`cd samtools-1.3.1_compile`
+			`./configure --enable-plugins --enable-libcurl --with-plugin-path=$PWD/htslib-1.3.1`
+			`make`
+			`make prefix=/Users/mollie.middleton/Applications/samtools-1.3.1 install`
+        - edit the PATH: `open ~/.bash_profiile`
+        - to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/samtools-1.3.1/bin`
+        - saved `.bash_profile` and quit text editor
+        - back at the command line typed: `source ~./bash_profile` [to force the profile to execute without having to close the terminal]
 
+- Now, typing in `bismark --help`, `bowtie2 --help`, and `samtools --help` all return the instructions on how to use those commands
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-`
-
-
+- Version of `Bismark`: 0.16.3
+- Version of `Bowtie2`: 2.2.9
+- Version of `SAMtools`: 1.3.1
