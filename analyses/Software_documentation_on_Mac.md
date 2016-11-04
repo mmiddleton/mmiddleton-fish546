@@ -75,12 +75,12 @@ https://virtualenv.pypa.io/en/stable/installation/
 		- clicked on the "virtualenv-15.0.3.tar.gz (md5, pgp)" link
     - Back at the command line typed:
            
-           `mv ~/Downloads/virtualenv-15.0.3.tar.gz .`
-            
+           `mv ~/Downloads/virtualenv-15.0.3.tar.gz
+           
            `tar zxvf virtualenv-15.0.3.tar.gz`
-            
+           
            `cd virtualenv-15.0.3`
-            
+           
            `python ./virtualenv.py/Users/mollie.middleton/Applications/virtualenv-15.0.3`
       
       [this is based on code found in the "To use locally from source" section of the https://virtualenv.pypa.io/en/stable/installation/ website]
@@ -139,9 +139,12 @@ source /Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/activate`
 		- compile and install `SAMtools`:
 		
         	`cd samtools-1.3.1_compile`
-			`./configure --enable-plugins --enable-libcurl --with-plugin-path=$PWD/htslib-1.3.1`
-			`make`
-			`make prefix=/Users/mollie.middleton/Applications/samtools-1.3.1 install`
+			
+            `./configure --enable-plugins --enable-libcurl --with-plugin-path=$PWD/htslib-1.3.1`
+			
+            `make`
+			
+            `make prefix=/Users/mollie.middleton/Applications/samtools-1.3.1 install`
         - edit the PATH: `open ~/.bash_profiile`
         - to the text editor window typed: `export PATH=$PATH:/Users/mollie.middleton/Applications/samtools-1.3.1/bin`
         - saved `.bash_profile` and quit text editor
