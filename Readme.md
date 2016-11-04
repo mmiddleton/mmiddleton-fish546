@@ -1,9 +1,9 @@
-#O. mykiss sperm methylome
+#*Oncorhynchus mykiss* sperm methylome project for FISH 546
 
-The project I will be working on will examine the methylome of sperm taken from a single, hatchery-raised, returning adult steelhead (*Oncorhynchus mykiss*).
+The project I will be working on will examine the methylome of sperm taken from a single, hatchery-raised, returning adult steelhead (*Oncorhynchus mykiss*). See a more in-depth description of the data that I am working with ![here](https://github.com/mmiddleton/mmiddleton-fish546/tree/master/data)
 
 ##Goals/Objectives
-My original goal was to obtain data from steelhead raised in the natural environment, as well as those raised in the hatchery environment, and compare methylation between the two rearing environments. However, since I have no data of my own and have never done this type of analysis before that might be a large task to start out with. Therefore, my current goals/objectives are:
+My original goal was to obtain data from steelhead raised in the natural environment, as well as those raised in the hatchery environment, and compare methylation between the two rearing environments. However, since I have no data of my own and have never done this type of analysis before, that might be a large task to start out with. Therefore, my current goals/objectives are:
 
 1. Learn more about the types of analyses used in bioinformatics and gain a semi-firm grasp of how to do them.
 
@@ -45,12 +45,13 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - Obtain data
 
 **Week 2:**
-- Download `BLAST` (this was not fully completed until Week 3 due to various problems...)
+- Download `BLAST` (this was not fully completed until Week 3 due to various problems with the Windows machine)
 - Gain a basic understanding of GitHub/GitHub Desktop and Jupyter Notebook
 - Start thinking about first steps in my project
 
 **Week 3:**
-- Complete download of `BLAST` so that it will successfully run (accomplished by downloading `Visual C++ Redistributable Packages for Visual Studio 2013` from the Microsoft website)
+- Download `BLAST` on my Mac desktop (will be downloading any future software to this location due to problems with Windows machine)
+- Complete download of `BLAST` on my Windows machine so that it will successfully run (accomplished by downloading `Visual C++ Redistributable Packages for Visual Studio 2013` from the Microsoft website)
 - Download `FASTQC`, gain a basic understanding of how to use it, run an analysis of my data, and gain a basic understanding of the output
 
 **Week 4:**
@@ -58,5 +59,8 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - Investigate which software would be best to use to map my trimmed sequences back to the genome (`BSMaps`?)
 
 **Week 5:**
-- Download either `BSMap` or `Bismark` to start mapping my sequences
-- Gain a basic understanding of whichever software I choose and run an analysis
+- Download `Bismark` and its dependencies to start mapping my sequences back to the genome
+- Gain a basic understanding of the software by reading the Bismark User Guide. This includes a tutorial with test data that can be downloaded so go through that before running an analysis on my data.
+
+**Week 6**
+- Run a `Bismark` analysis on my data
