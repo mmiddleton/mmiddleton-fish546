@@ -75,7 +75,7 @@ https://virtualenv.pypa.io/en/stable/installation/
 		- clicked on the "virtualenv-15.0.3.tar.gz (md5, pgp)" link
     - Back at the command line typed:
            
-           `mv ~/Downloads/virtualenv-15.0.3.tar.gz
+           `mv ~/Downloads/virtualenv-15.0.3.tar.gz`
            
            `tar zxvf virtualenv-15.0.3.tar.gz`
            
