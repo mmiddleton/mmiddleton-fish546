@@ -1,6 +1,6 @@
 #*Oncorhynchus mykiss* sperm methylome project for FISH 546
 
-The project I will be working on will examine the methylome of sperm taken from a single, hatchery-raised, returning adult steelhead (*Oncorhynchus mykiss*). See a more in-depth description of the data that I am working with ![here](https://github.com/mmiddleton/mmiddleton-fish546/tree/master/data)
+The project I will be working on will examine the methylome of sperm taken from a single, hatchery-raised, returning adult steelhead (*Oncorhynchus mykiss*). See a more in-depth description of the data that I am working with [here](https://github.com/mmiddleton/mmiddleton-fish546/tree/master/data)
 
 ##Goals/Objectives
 My original goal was to obtain data from steelhead raised in the natural environment, as well as those raised in the hatchery environment, and compare methylation between the two rearing environments. However, since I have no data of my own and have never done this type of analysis before, that might be a large task to start out with. Therefore, my current goals/objectives are:
