@@ -21,7 +21,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - `README.md` describing the sample, sample preparation, and how the data was obtained
 
 `images/`
-- contains images from unzipped versions of the `FASTQC` output files, see README.md in this directory
+- contains images from unzipped versions of the `FASTQC` output files, quick links to each image are available [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/README.md)
 
 `notebooks/`
 - contains `.ipynb` checkpoints (not synced to my repository)
