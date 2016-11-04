@@ -1,3 +1,61 @@
-#Images associated with FISH 546 Project
+#Images from `FASTQC` output
 
-Because the `.html` files from my `FASTQC` analyses did not load into GitHub the way that I wanted them to, I felt that it would be nice to have the images from the `FASTQC` outputs easily accessible. The zipped files of each output (which contain a copy of these images and the `.html` file) are accessible in the `analyses/` directory as well if viewing the `.html` file is preferred.
+The zipped files of each `FASTQC` output (which contain a copy of these images and the `.html` file) are accessible in the `analyses/` directory as well if viewing the `.html` file is preferred.
+
+However, quick access to images from the `FASTQC` outputs are available here:
+
+- FastQC_pretrim_20161020:
+	- [adapter content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/adapter_content_pretrim.png)
+	- [duplication levels](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/duplication_levels_pretrim.png)
+	- [kmer profiles](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/kmer_profiles_pretrim.png)
+	- [per base n content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/per_base_n_content_pretrim.png)
+	- [per base quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/per_base_quality_pretrim.png)
+	- [per base sequence content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/per_base_sequence_content_pretrim.png)
+	- [per sequence gc content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/per_sequence_gc_content_pretrim.png)
+	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/per_sequence_quality_pretrim.png)
+	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/FastQC_pretrim_20161020/sequence_length_distribution_pretrim.png)
+
+- TrimGalore_FastQC_20161024_1
+	- [adapter content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/adapter_content_trimmed_1.png)
+	- [duplication levels](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/duplication_levels_trimmed_1.png)
+	- [kmer profiles](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/kmer_profiles_trimmed_1.png)
+	- [per base n content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/per_base_n_content_trimmed_1.png)
+	- [per base quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/per_base_quality_trimmed_1.png)
+	- [per base sequence content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/per_base_sequence_content_trimmed_1.png)
+	- [per sequence gc content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/per_sequence_gc_content_trimmed_1.png)
+	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/per_sequence_quality_trimmed_1.png)
+	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_1/sequence_length_distribution_trimmed_1.png)
+
+- TrimGalore_FastQC_20161024_2
+	- [adapter content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/adapter_content_trimmed_2.png)
+	- [duplication levels](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/duplication_levels_trimmed_2.png)
+	- [kmer profiles](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/kmer_profiles_trimmed_2.png)
+	- [per base n content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/per_base_n_content_trimmed_2.png)
+	- [per base quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/per_base_quality_trimmed_2.png)
+	- [per base sequence content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/per_base_sequence_content_trimmed_2.png)
+	- [per sequence gc content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/per_sequence_gc_content_trimmed_2.png)
+	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/per_sequence_quality_trimmed_2.png)
+	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161024_2/sequence_length_distribution_trimmed_2.png)
+
+- TrimGalore_FastQC_20161025_3
+	- [adapter content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/adapter_content_trimmed_3.png)
+	- [duplication levels](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/duplication_levels_trimmed_3.png)
+	- [kmer profiles](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/kmer_profiles_trimmed_3.png)
+	- [per base n content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/per_base_n_content_trimmed_3.png)
+	- [per base quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/per_base_quality_trimmed_3.png)
+	- [per base sequence content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/per_base_sequence_content_trimmed_3.png)
+	- [per sequence gc content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/per_sequence_gc_content_trimmed_3.png)
+	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/per_sequence_quality_trimmed_3.png)
+	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_3/sequence_length_distribution_trimmed_3.png)
+
+- TrimGalore_FastQC_20161025_4
+	- [adapter content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/adapter_content_trimmed_4.png)
+	- [duplication levels](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/duplication_levels_trimmed_4.png)
+	- [kmer profiles](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/kmer_profiles_trimmed_4.png)
+	- [per base n content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_base_n_content_trimmed_4.png)
+	- [per base quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_base_quality_trimmed_4.png)
+	- [per base sequence content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_base_sequence_content_trimmed_4.png)
+	- [per sequence gc content](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_sequence_gc_content_trimmed_4.png)
+	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_sequence_quality_trimmed_4.png)
+	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/sequence_length_distribution_trimmed_4.png)
+
