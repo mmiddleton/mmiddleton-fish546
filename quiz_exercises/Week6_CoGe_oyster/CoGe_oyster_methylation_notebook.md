@@ -20,7 +20,7 @@
     
     - Clicked on the "Next" button at the lower right
 
-	- On the third page, everything remained at the defaults, exceopt: under the alignment section changed the aligner to Bismark, checked the enable box in the methylation analysis section, and checked the add results to notebook and send email when finished boxes
+	- On the third page, everything remained at the defaults, except: under the alignment section changed the aligner to Bismark, checked the enable box in the methylation analysis section, and checked the add results to notebook and send email when finished boxes
 	![new_experiment4](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/quiz_exercises/Week6_CoGe_oyster/screenshots/new_experiment4.png)
     ![new_experiment5](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/quiz_exercises/Week6_CoGe_oyster/screenshots/new_experiment5.png)
     
@@ -46,7 +46,7 @@
     - Then, selected the BAM alignment by clicking on "Week6_oyster_methylation (BAM alignment)":
     ![add_BAM](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/quiz_exercises/Week6_CoGe_oyster/screenshots/add_BAM.png)
 
-- To take a closer look at areas of high methylation (areas with lots of green spikes that had alignments (purple areas, as well as the red and blue blocks added after selecting the BAM alignment from the drop-down menu)), used the magnifaction buttons near the top of the window. Once zoomed in, I could center the interesting alignments in the middle of the window by clicking and dragging to the left or right within the white space of the window. That way I could zoom in further:
+- To take a closer look at areas of high CpG methylation (areas with lots of green spikes that had alignment of sequences), used the magnifaction buttons near the top of the window. Once zoomed in, I could center the interesting alignments in the middle of the window by clicking and dragging to the left or right within the white space of the window. That way I could zoom in further:
 ![zoom_in](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/quiz_exercises/Week6_CoGe_oyster/screenshots/zoomin.png)
 
 - Looked at multiple different scaffolds by using the drop-down menu to the right of the magnification buttons near the top-center of the window and selecting different scaffolds. Each scaffold was inspected for areas of high methylation as described/shown above.
