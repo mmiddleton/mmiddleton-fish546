@@ -27,10 +27,16 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - contains `.ipynb` checkpoints (not synced to my repository)
 - contains documentation showing how analyses were performed
 
-`R_seastar/`
-- contains files used to complete the quiz question for Week 4
-- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the quiz question for Week 4
-- contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
+`quiz_exercises/`
+- `Week3_images/`
+	- contains repository images (punchcard and directory structure) used to complete quiz questions for Week 3 
+- `Week4_R_seastar/`
+	- contains files used to complete the quiz question for Week 4
+	- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the quiz question for Week 4
+	- contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
+- `Week6_CoGe_oyster/`
+	- contains a `.md` notebook describing the steps taken to do a methylation analysis using CoGe
+	- contains screenshots of the CoGe and Blast websites showing the steps taking to complete the methylation analysis 
 
 `scripts/`
 - contains information about a script called `fasta_filter.py` that I can use to merge `fasta` files with `.txt` or `.tab` files (used for Week 4 quiz question)
@@ -60,7 +66,10 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 **Week 5:**
 - Download `Bismark` and its dependencies to start mapping my sequences back to the genome
-- Gain a basic understanding of the software by reading the Bismark User Guide. This includes a tutorial with test data that can be downloaded so go through that before running an analysis on my data.
+- Gain a basic understanding of the software by reading the Bismark User Guide.
 
 **Week 6**
-- Run a `Bismark` analysis on my data
+- Run a `Bismark` analysis on my data (This was started but not completed, my computer likely does not have enough power to run this particular analysis... However, the bisulfite conversion of the genome was started and will run over the weekend. Will check on it on Monday.)
+
+**Week 7**
+- Run the mapping portion of `Bismark` (Depending on the results of the bisulfite conversion of the genome this might be accomplished on a computer other than my own)
