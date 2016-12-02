@@ -1,4 +1,6 @@
-#Images from `FASTQC` output
+#Description of Directories in `Images/`
+
+##Images from `FASTQC` output
 
 The zipped files of each `FASTQC` output (which contain a copy of these images and the `.html` file) are accessible in the `analyses/` directory as well if viewing the `.html` file is preferred.
 
@@ -59,3 +61,6 @@ However, quick access to images from the `FASTQC` outputs are available here:
 	- [per sequence quality](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/per_sequence_quality_trimmed_4.png)
 	- [sequence length distribution](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/TrimGalore_FastQC_20161025_4/sequence_length_distribution_trimmed_4.png)
 
+##Images from `Bismark` analyses
+
+The images in this directory are all included in the `Bismark_notebook.md` file which descibes my various attempts to complete a `Bismark` analysis in both the terminal and online through the CoGe website. Quick access to this notebook is available [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_notebook.md)
