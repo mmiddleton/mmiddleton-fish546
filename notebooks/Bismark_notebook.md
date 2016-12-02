@@ -3,9 +3,9 @@
 In order to align to the genome using `Bismark` I first have to do a genome preparation command which will convert all the cytosines (Cs) to thymines (Ts) and all the guanines (Gs) to adenines (As). When you do the alignment step `Bismark` uses both the converted and unconverted genomes to align your sequences.
 
 ## 2016-11-10 - `Bismark` genome prep failure 1
-Started a `Bismark` genome prep using the command `bismark_genome_preparation --verbose .` The verbose is just so that I can see what is happening in the termainal as the process progresses. The "." is really just to identify what directory the genome that I wanted prepared is in. I had already navigated to that directory though, so I can just put "." rather than a path to that directory. Since `Bowtie2` is in my PATH I also do not have to specify what directory that is in.
+Started a `Bismark` genome prep using the command `bismark_genome_preparation --verbose .` The verbose is just so that I can see what is happening in the terminal as the process progresses. The "." is really just to identify what directory the genome that I wanted prepared is in. I had already navigated to that directory though, so I can just put "." rather than a path to that directory. Since `Bowtie2` is in my PATH I also do not have to specify what directory that is in.
 
-I started this on Thursday morning in the hopes that it would complete by the time I returned to work on Monday morning since I have been told (and read) that the genome prep is a rather long process. Here's what it looks like in the terminal when it first starts running:
+I started this on Thursday morning in the hopes that it would complete by the time I returned to work on Monday morning, since I have been told (and read) that the genome prep is a rather long process. Here's what it looks like in the terminal when it first starts running:
 ![Bismark_genome_prep](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/bismark_genome_prep_unsuccessful.png)
 
 When I got back to work on Monday morning (2016-11-14) my computer was more or less unresponsive... I was able to get the mouse arrow to show up, but on a completely black screen and I could not get the log-in box to come up so that I could enter my password. Had to do a hard shut-down... When I finally could log-in I had the windows that were previously open re-opened so that I could see how far the process had progressed before it failed. Apparently it got most of the way through step II which is the alignment. I also found out from IT that there was a setting on my computer which I didn't have access to that causes the hardware on the computer to go to sleep after five hours of inactivity and that was likely what caused the process to fail. So, they changed the setting for me so that the hardware would never go to sleep and I'll try again later in the week.
@@ -15,7 +15,7 @@ Started another genome prep with `Bismark` since I will be away from my computer
 
 When I got back to my computer on Thursday morning, my computer was again mostly unresponsive. All I got was the pinwheel on a black screen. Reluctantly, I did another hard shut down. When the windows that were previously open re-opened I was able to see that the process got to step III this time which is the indexing. Truly unfortunate that I couldn't let it finish, but at least it got further, maybe if I was able to leave it for another day it would have completed...
 
-Since I have not yet been able to get my own computer to complete the genome prep, I got a copy of the prepared genome from Mac since she has the same genome and prepared genome on her computer. I'll attempt to run the alignment with my sequence data over the weekend.
+Since I have not yet been able to get my own computer to complete the genome prep, I got a copy of the prepared genome from Mac since she has the same genome and bisulfite prepared genome on her computer. I'll attempt to run the alignment with my sequence data over the weekend.
 
 ## 2016-11-15 - CoGe Bismark analysis failure
 Since so far `Bismark` has been less than happy attempting to run on my computer, I decided to try and run an analysis on [CoGe](https://genomevolution.org/coge/).
@@ -103,7 +103,7 @@ This time it actually started running!!!!
 And it even completed successfully!!!!!
 ![CoGe_complete1](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete1.png)
 ![CoGe_complete2](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete2.png)
-At least I got some sort of data that I can go forward with. If restarting my `Bismark` alignment with the quality trimmed data doesn't work or takes too long I can use the CoGe analysis instead to look at some heavily methylated genes and visualize the methylation coverage.
+This time around I did not start the analysis with the metaplot option (under the Methylation Analysis heading on the Options page) enabled. Maybe this is what was causing my previous attempts to fail? Not quite sure, but very happy that it completed this time around. At least I got some sort of data that I can go forward with. If restarting my `Bismark` alignment with the quality trimmed data doesn't work or takes too long I can use the CoGe analysis instead to look at some heavily methylated genes and visualize the methylation coverage.
 
 ## 2016-11-28 - `Bismark` analysis started with correct data
 - In the terminal, navigated to the directory where my data file is stored (part of the reason I ran it with the wrong data file on my first two attempts is that the trimmed data file is embedded another directory deep and I didn't navigate far enough...).
