@@ -22,6 +22,7 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 `images/`
 - contains images from unzipped versions of the `FASTQC` output files, quick links to each image are available [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/README.md)
+- contains images included in the `Bismark_notebook.md` file found [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_notebook.md)
 
 `notebooks/`
 - contains `.ipynb` checkpoints (not synced to my repository)
@@ -69,7 +70,22 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - Gain a basic understanding of the software by reading the Bismark User Guide.
 
 **Week 6**
-- Run a `Bismark` analysis on my data (This was started but not completed, my computer likely does not have enough power to run this particular analysis... However, the bisulfite conversion of the genome was started and will run over the weekend. Will check on it on Monday.)
+- Run a `bismark_genome_preparation` which is the first step to being able to align my data back to the genome [see `Bismark_notebook.md` for more detail on why].
+- Attempt to run a Bismark analysis online at the CoGe website.
 
 **Week 7**
-- Run the mapping portion of `Bismark` (Depending on the results of the bisulfite conversion of the genome this might be accomplished on a computer other than my own)
+- Attempt to run the `bismark_genome_preparation` again since it was unable to complete last week (see `Bismark_notebook.md` for more details).
+- Upload my genome (scaffolds) to the CoGe website and attempt to run the Bismark alignment again since it didn't work using the chromosome assembly which was previously uploaded by someone else.
+
+**Week 8**
+- Since I was never able to get my computer to complete the genome prep, I obtained a copy of the bisulfite prepped genome from Mac and will run the mapping portion (commmand: `bismark`) over the holiday weekend
+- Attempt to run a Bismark analysis with CoGe again since it has not been working thus far.
+
+**Week 9**
+- Since I started the `bismark` alignment command using the wrong file (raw rather than quality trimmed data), re-run the `bismark` alignment using the correct file
+- Figure out how to download the CoGe analysis so that I can view the data through `IGV` instead.
+- `BLAST` some heavily methylated genes and search for genes of interest to see if they are covered by the sequencing data and whether or not they are methylated
+
+**Week 10**
+- Run the `bismark_methylation_extraction` step in the terminal to see if I can get that to complete
+- Continue with the `BLAST` searches
