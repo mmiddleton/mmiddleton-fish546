@@ -33,6 +33,7 @@ done
 if [ $? -ne 0 ]
 then echo "Did not create copies of files, re-examine script for errors"
 fi
+echo "Created copies of files"
 
 #Make a new directory to put the copies in
 mkdir "$directory_backup"
