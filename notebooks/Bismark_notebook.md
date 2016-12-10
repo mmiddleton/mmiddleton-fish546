@@ -82,29 +82,3 @@ When I got back to my computer on Monday it was still running, but at least it h
 
 ## 2016-11-23 - `Bismark` analysis failure
 Followed the exact same steps as described above. The alignment was mostly successful, it didn't finish but when I got back to my computer after the four-day weekend it had processed nearly all of the 5,000,000 sequences. However, I realized over the weekend that I started the alignment with the wrong file, I used `89_S1_L001_R1_001.fastq` rather than `89_S1_L001_R1_001_trimmed.fq` which is the quality trimmed version of the data. So, I quit out of the terminal since even if I were to let it finish that output would not be useful since it was produced from adapter contaminated sequence data.
-
-## 2016-11-25 - CoGe Bismark analysis success
-Because I had realized that I started my `Bismark` analysis in the terminal with the wrong data, I decided to attempt to get CoGe to work again.
-
-- On the CoGe website, selected "My Data" from the top of the page
-- On the right-hand side, selected "New" and clicked on "New Experiment" from the drop-down menu
-- On the "Describe your experiment" page in the pop-up window:
-![CoGe_describe](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_DYE.png)
-- On the "Data" page in the pop-up window:
-![CoGe_data](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_data.png)
-- On the "Options" page in the pop-up windwo:
-![CoGe_opt1](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_options1.png)
-![CoGe_opt2](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_options2.png)
-- On the "Review and Submit" page in the pop-up window:
-![CoGe_rev](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_review.png)
-
-This time it actually started running!!!!
-![CoGe_running](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_running.png)
-And it even completed successfully!!!!!
-![CoGe_complete1](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete1.png)
-![CoGe_complete2](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete2.png)
-This time around I did not start the analysis with the metaplot option (under the Methylation Analysis heading on the Options page) enabled. Maybe this is what was causing my previous attempts to fail? Not quite sure, but very happy that it completed this time around. At least I got some sort of data that I can go forward with. If restarting my `Bismark` alignment with the quality trimmed data doesn't work or takes too long I can use the CoGe analysis instead to look at some heavily methylated genes and visualize the methylation coverage.
-
-## 2016-11-28 - `Bismark` analysis started with correct data
-- In the terminal, navigated to the directory where my data file is stored (part of the reason I ran it with the wrong data file on my first two attempts is that the trimmed data file is embedded another directory deep and I didn't navigate far enough...).
-- Entered the command: `bismark ~/Documents/Trout_genome 89_S1_L001_R1_001_trimmed.fq` (see previous analysis attempts for specifics on each part of this command)
