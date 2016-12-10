@@ -155,3 +155,16 @@ source /Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/activate`
 - Version of `Bismark`: 0.16.3
 - Version of `Bowtie2`: 2.2.9
 - Version of `SAMtools`: 1.3.1
+
+## `IGV`
+
+- With mouse clicks:
+	- went to this website: http://software.broadinstitute.org/software/igv/home
+	- on the left-hand side of the page, clicked on the "Downloads" button
+	- scrolled down and clicked on the "Download Binary Distribution" button
+	- moved the downloaded zipped file from `Downloads/` to `Applications/`
+	- unzipped the file (double-click)
+
+- Now, typing `igv` from the command line launches the application (Note: `IGV` requires a `Java` in order to run, but since I had already installed that for `FASTQC` I had no need to install it to get `IGV` to run)
+
+- Version of `IGV`: 2.3.88
