@@ -9,3 +9,5 @@ As noted at the beginning of each Markdown notebook, see [Software_documentation
 - **TrimGalore_FastQC_20161024_2:** Second attempt to clean up the lower quality reads since the quality cut off the first time was probably too low
 - **TrimGalore_FastQC_20161025_3:** Third attempt to clean up the lower quality reads, mostly to better familiarize myself with the program since there are many different parameters and I added two to the last run. So, removed one of the parameters from this run for comparison
 - **TrimGalore_FastQC_20161025_4:** Final run after talking to Mac to make sure I was understanding my outputs and getting her opinion on what parameters are useful
+- **Bismark_failures:** Documentation of all the problems that occurred while trying to complete a `Bismark` analysis both on the CoGe website and in the terminal.
+- **Bismark_success:** Documentation of the successful completion of a `Bismark` analysis both on the CoGe website and in the terminal
