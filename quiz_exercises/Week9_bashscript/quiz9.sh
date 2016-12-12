@@ -22,12 +22,18 @@ echo "Listing current directory"
 ls
 
 #Loop for creating a copy of each file 
-#Honestly, for the "do" part of this loop I tried to get it to work with a different command 
-#and it didn't, so I looked up that particular bit of code online. I'm not 100% on what all the 
-#symbols within the brackets are for but I'm working on finding out
+#In the do part of the loop the {file%.*} takes the everything before the file extension for "file"
+#splits it on the "." and keeps the shortest part of that string (which in this case is my file names).
+#For the {file##*.} it is a similar idea, but it keeps the longest part of the string. This is how
+#my new file names with -raw attached to them are created.
+#Note: I found this bit of code online after having other commands that I tried not work. I then
+#looked up what the parts of the code I didn't understand are there for.
 for file in *.fastq
-do cp -p -- "$file" "${file%.*}-raw.${file##*.}"
+do cp -p "$file" "${file%.*}-raw.${file##*.}"
 done
+#Could also do Sample={awk -F "." print$1}, Ext={awk -F "." print$2}
+#Then bring those two bits back together with copy=Sample-raw.Ext to create new file names
+
 
 #Check that files were created with an if statement
 if [ $? -ne 0 ]
