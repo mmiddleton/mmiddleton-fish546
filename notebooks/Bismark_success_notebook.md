@@ -52,7 +52,7 @@ But eventually it completes with a final alignment report that is also output to
 It does this for a while...
 ![Bismark_methylation2](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/Bismark_success/Bismark_methylation_extractor2.png)
 
-Then it starts processing...
+When it completes it looks like this:
 ![Bismark_methylation3](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/Bismark_success/Bismark_methylation_extractor3.png)
 
 It completes with an overall cytosine methylation report that is also output to a text file and can be found [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/analyses/Bismark/bismark_methylation_extractor/89_S1_L001_R1_001_trimmed_bismark_bt2_splitting_report.txt).
