@@ -1,5 +1,7 @@
 # Attempts at aligning my data to the genome using `Bismark`
 
+For information on how the software to perform this analysis was downloaded see `Software_documentation_on_Mac` in `analyses/`.
+
 In order to align to the genome using `Bismark` I first have to do a genome preparation command which will convert all the cytosines (Cs) to thymines (Ts) and all the guanines (Gs) to adenines (As). When you do the alignment step `Bismark` uses both the converted and unconverted genomes to align your sequences.
 
 ## 2016-11-10 - `Bismark` genome prep failure 1
