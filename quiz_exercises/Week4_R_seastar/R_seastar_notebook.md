@@ -23,7 +23,7 @@
 
 - Activate virtualenv (see `Software_documentation_on_Mac` file in `analyses/` for an explanation why):
 	`venv`
-- Run fasta_filter.py script to join the two (see `fasta_filter.py_script` in `scripts/`):
+- Run fasta_filter.py script to join the two (see `fasta_filter.py_script` [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/quiz_exercises/Week4_R_seastar/fasta_filter.py_script.md)):
 	`fasta_filter.py -i Phel_transcriptome.fasta -w Phel_DEGlist.ids.txt -o Phel_DEGlist.seq.fasta`
 
 - Check to make sure that the output looks like a fasta file:
