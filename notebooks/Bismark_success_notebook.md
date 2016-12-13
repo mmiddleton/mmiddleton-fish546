@@ -44,7 +44,7 @@ But eventually it completes with a final alignment report that is also output to
 - In the terminal, navigated to the directory where my `.bam` file was stored.
 - Entered the command: `bismark_methylation_extractor --comprehesive --bedGraph --counts --scaffolds 89_S1_L001_R1_001_trimmed_bismark_bt2.bam`
 	- `--comprehensive` makes it so that the output files for CpG, CHH, and CHG methylation are combined into single files, one each for each methylation type. The default it that there are two files for each, one for alignments to the original top strand and one for alignments to the original bottom strand. 
-	- `--bedGraph` makes it so that methylation output is written into a sorted `bedGraph` file that reports the position of a given cytosine and it methylation state
+	- `--bedGraph` makes it so that methylation output is written into a sorted `bedGraph` file that reports the position of a given cytosine and its methylation state
 	- `--counts` was a command I put in because Mac has it as part of her pipeline, but after looking over the Bismark User Guide (found [here](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html)) multiple times, neither of us could figure out exactly what it what used for... I figured it couldn't hurt to put it in if she thought it was necessary at one time.
 	- `--scaffolds` is necessary due to the fact that we are working with an unfinished genome including thousands of scaffolds. The program has a limit to the number of filehandles that can be written out at any one time and this command bypasses that problem.
 	- The last part of the command is the `.bam` file output from the `bismark` alignment step.
