@@ -1,0 +1,12 @@
+# *O. mykiss* sperm methylome results
+
+For an in-depth description of how I got from my original `fastq` file to these files see the documentation in the [notebooks directory](https://github.com/mmiddleton/mmiddleton-fish546/tree/master/notebooks).
+
+It should be noted that although I was able to get my `Bismark` analysis to complete in the terminal (and that is how the first four files were produced) I used the CoGe analysis that I ran to `BLAST` heavily methylated genes. Also, the `.bam` file produced during the alignment step of `Bismark` (which is what is used during the methylation extractor step of `Bismark`) is too large to post to GitHub and is therefore was not uploaded to my repository.
+
+
+### A description of each file:
+- **.M-bias.txt:** This is one of the default outputs of the methylation extractor step of `Bismark`. The table shows methylation proportion across each possible position in the read in the format: read position, count methylated, count unmethylated, % methylation, total coverage. This table could be used to generate graphs in a program like R. By default, the step of the output should have also produced an `.png` file showing the M-bias plot, however, this requires the Perl module GD::Graph which I do not have, therefore the `.png` file was not made.
+- **.bedGraph.gz:** This file was produced by adding the `bedGraph` command to the methylation extractor step of `Bismark`. The result is a sorted file reporting the position of a given cytosine and its methylation state in the format: chromosome, start position, end position, methylation percentage.
+- **.cov.gz:** This file is one of the default outputs of the methylation extractor step of `Bismark`. The result is a tab-separated table in the format: seq-ID, methylation state, chromosome, start position (= end position), methylation call (+ = methylated, - = unmethylated).
+- **CpG_context(...).zip:** This file was produced by adding the `comprehensive` command to the methylation extractor step of `Bismark`. The default output is a file for each methylation type (CpG, CHH, CHG) and each strand type (original top, original bottom) for a total of six different files. However, with the `comprehensive` command you can combine the files for each strand type into one file for each methylation type so that you only have three files. I have only posted the file for CpG context here because our lab is not interested in CHH or CHG methylation.
