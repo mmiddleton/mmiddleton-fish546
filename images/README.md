@@ -1,4 +1,4 @@
-#Description of Directories in `Images/`
+#Description of Directories in `images/`
 
 ##Images from `FASTQC` output
 
