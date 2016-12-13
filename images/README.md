@@ -63,4 +63,4 @@ However, quick access to images from the `FASTQC` outputs are available here:
 
 ##Images from `Bismark` analyses
 
-The images in the `Bismark_notebook/` directory are all included in the `Bismark_notebook.md` file which descibes my various attempts to complete a `Bismark` analysis in both the terminal and online through the CoGe website. Quick access to this notebook is available [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_notebook.md)
+The images in the `Bismark_notebook/` directory are all included in `Bismark_failures_notebook.md` and `Bismark_success_notebook.md` (see `Bismark_success/` directory embedded in the `Bismark_notebook/` directory) in the `notebooks/` directory. They descibe my various attempts to complete a `Bismark` analysis in both the terminal and online through the CoGe website. Quick access to these notebooks: [Bismark failures notebook](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_failures_notebook.md) and [Bismark success notebook](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_success_notebook.md)
