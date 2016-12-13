@@ -13,20 +13,25 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 ##Repository Structure
 `analyses/`
-- contains all output files from analyses performed on my data. Each analysis is in a separate folder named for the type of analysis performed and date it was performed on. If multiple analyses of the same type were performed each one is numbered for the order it was performed in (1, 2, 3, etc.). The `Trim_Galore` files contain a `.txt` document with the run parameters for that particular analysis, these are also included in the notebook entry for that analysis.
-- contains a file called 'Software_documentation_on_Mac` which documents the operating system these analyses were performed on, versions of software used, and how that software was downloaded
+- contains all output files from analyses performed on my data.
+	- `FastQC` - contains the zipped output from my `FastQC` run and the run parameters
+	- `TrimGalore` - Four different runs (1,2,3,4) each containing the zipped output from the `TrimGalore` run, the trimming report (`.txt`) and the run parameters
+	- `Bismark`
+		- `bismark/` directory - contains the summary report from the alignment step of `Bismark` [also contains the `.bam` file which is the output of the alignment step, however, this is not synced to my repository due to size]
+		- `bismark_methylation_extractor/` directory - contains the summary report from the methylation extractor step of `Bismark`
+- contains a file called `Software_documentation_on_Mac` which documents the operating system these analyses were performed on, versions of software used, and how that software was downloaded
 
 `data/`
 - `fastq` data file (not synced to my repository due to size)
 - `README.md` describing the sample, sample preparation, and how the data was obtained
 
 `images/`
-- contains images from unzipped versions of the `FASTQC` output files, quick links to each image are available [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/README.md)
-- contains images included in the `Bismark_notebook.md` file found [here](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_notebook.md)
+- contains images from unzipped versions of the `FASTQC` output files, quick links to each image are available in the [README](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/README.md)
+- contains images included in the [Bismark_failures_notebook](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_failures_notebook.md) and [Bismark_success_notebook](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/Bismark_success_notebook.md) files
 
 `notebooks/`
 - contains `.ipynb` checkpoints (not synced to my repository)
-- contains documentation showing how analyses were performed
+- contains documentation showing how analyses were performed, see [README](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/notebooks/README.md) for a brief description of each notebook
 
 `quiz_exercises/`
 - `Week3_images/`
@@ -34,13 +39,19 @@ My original goal was to obtain data from steelhead raised in the natural environ
 - `Week4_R_seastar/`
 	- contains files used to complete the quiz question for Week 4
 	- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the quiz question for Week 4
+	- contains the description of a script I had help writing (fasta_filter.py) that I used to merge a `fasta` file with a `tab` file in order to complete the quiz question
 	- contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
 - `Week6_CoGe_oyster/`
 	- contains a `.md` notebook describing the steps taken to do a methylation analysis using CoGe
 	- contains screenshots of the CoGe and Blast websites showing the steps taking to complete the methylation analysis 
+- `Week9_bashscript/`
+	- contains a `bash script` titled `quiz9` I wrote that will create copies of `fastq` files and move them to a new directory titled `Raw_backup`
+	- contains a `jupyter notebook` showing a successful run of the script
+	- contains test `fastq` files I made in order to test my script
+	- contains the directory `Raw_backup` that was successfully created by running the script
 
-`scripts/`
-- contains information about a script called `fasta_filter.py` that I can use to merge `fasta` files with `.txt` or `.tab` files (used for Week 4 quiz question)
+`results/`
+- contains results files after methylation extractor step of `Bismark` and a `.tab` file with results from Blast-ing some heavily methylated and undermethylated sequences to examine what genes they match to. See [README](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/results/README.md) for more detailed information.
 
 `README.md`
 - this `README.md` describing my project
@@ -83,9 +94,9 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 **Week 9**
 - Since I started the `bismark` alignment command using the wrong file (raw rather than quality trimmed data), re-run the `bismark` alignment using the correct file
-- Figure out how to download the CoGe analysis so that I can view the data through `IGV` instead.
 - `BLAST` some heavily methylated genes and search for genes of interest to see if they are covered by the sequencing data and whether or not they are methylated
 
 **Week 10**
 - Run the `bismark_methylation_extraction` step in the terminal to see if I can get that to complete
 - Continue with the `BLAST` searches
+- Create release of repository and archive using Zenodo
