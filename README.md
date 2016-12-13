@@ -38,9 +38,10 @@ My original goal was to obtain data from steelhead raised in the natural environ
 
 - `Week3_images/`
 	- contains repository images (punchcard and directory structure) used to complete quiz questions for Week 3 
+
 - `Week4_R_seastar/`
-	- contains files used to complete the quiz question for Week 4
-	- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the quiz question for Week 4
+	- contains files used to complete the Week 4 quiz question
+	- contains output files (images, `.txt` files, a `fasta` file, and a `.tab` file) from completing the Week 4 quiz question
 	- contains the description of a script I had help writing (fasta_filter.py) that I used to merge a `fasta` file with a `tab` file in order to complete the quiz question
 	- contains a `.md` notebook showing the steps I took to complete the Week 4 quiz question
 
