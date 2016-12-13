@@ -1,4 +1,4 @@
-#Notebook structure for FISH 546 Project
+#Notebook structure for FISH 546 project
 
 As noted at the beginning of each Markdown notebook, see [Software_documentation_on_Mac](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/analyses/Software_documentation_on_Mac.md) for versions of software used and how they were downloaded to the Mac Desktop where I performed my analyses.
 
