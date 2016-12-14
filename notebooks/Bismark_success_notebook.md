@@ -20,6 +20,8 @@ This time it actually started running!!!!
 And it even completed successfully!!!!!
 ![CoGe_complete1](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete1.png)
 ![CoGe_complete2](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_complete2.png)
+Here's a visual of what one of the scaffolds looks like in the CoGe viewing browser:
+![CoGe_viewer](https://github.com/mmiddleton/mmiddleton-fish546/blob/master/images/Bismark_notebook/CoGe_success_viewer.png)
 This time around I did not start the analysis with the metaplot option (under the Methylation Analysis heading on the Options page) enabled. Maybe this is what was causing my previous attempts to fail? Not quite sure, but very happy that it completed this time around. At least I got some sort of data that I can go forward with. Despite getting my `Bismark` analysis in the terminal to complete, various other problems cropped up, such as being unable to post large files to GitHub, so this was the primary analysis that I used to make my `.tab` file of heavily methylated genes.
 
 ## 2016-11-28 - `Bismark` analysis started with correct data
