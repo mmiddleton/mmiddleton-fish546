@@ -165,6 +165,6 @@ source /Users/mollie.middleton/Applications/virtualenv-15.0.3/bin/activate`
 	- moved the downloaded zipped file from `Downloads/` to `Applications/`
 	- unzipped the file (double-click)
 
-- Now, typing `igv` from the command line launches the application (Note: `IGV` requires a `Java` in order to run, but since I had already installed that for `FASTQC` I had no need to install it to get `IGV` to run)
+- Now, typing `igv.sh` from the command line launches the application (Note: `IGV` requires a `Java` in order to run, but since I had already installed that for `FASTQC` I had no need to install it to get `IGV` to run)
 
 - Version of `IGV`: 2.3.88
